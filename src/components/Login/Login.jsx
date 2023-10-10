@@ -114,7 +114,7 @@ const Login = () => {
                     content={registerTitle} 
                     setShowModal={setShowModal} />
             };
-            {showKeyModal &&
+            {showKeyModal && 
                 <Modal title={keyModalTitle}
                     content={keyModalContent}
                     setShowModal={setShowKeyModal}
