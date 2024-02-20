@@ -96,7 +96,6 @@ const Login = () => {
                         placeholder='Company name' 
                         onChange={handleMailChange} 
                         value={userData.company} />
-                <button className={styles['login-button']}>send</button>
                 <input  className={styles['login-input']}
                         name='email'  
                         placeholder='Email address' 
